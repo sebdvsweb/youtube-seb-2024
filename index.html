@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube Seb</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Grape+Nuts&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body class="content">
+    <nav class="navbar">
+        <div class="container">
+            <img src="images/YouTube_Logo_2017.svg.png" height="40" id="main-logo" />
+            <form class="d-flex" role="search" id="searchForm">
+                <input class="form-control me-2" type="search" placeholder="Chercher une vidéo" aria-label="Search" id="searchInput">
+                <button class="btn btn-outline-danger" type="submit">Chercher</button>
+            </form>
+            <button class="btn btn-dark" id="btn">Dark</button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row border-bottom">
+            <h3 class="title-video">Mon premier titre de mes vidéos youyoute</h3>
+            <p></p>
+            <div class="col-lg-4">
+                <iframe width="100%" height="230px" src="https://www.youtube.com/embed/VnT7pT6zCcA" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-lg-4">
+                <iframe width="100%" height="230px" src="https://www.youtube.com/embed/U8btNneN8ew" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-lg-4">
+                <iframe width="100%" height="230px" src="https://www.youtube.com/embed/UJ-tYBOvwmM" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row border-bottom">
+            <h3 class="title-video">Mon second titre</h3>
+            <p></p>
+            <div class="col-lg-4">
+                <iframe width="100%" height="230px" src="https://www.youtube.com/embed/FWG3Dfss3Jc" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-lg-4">
+                <iframe width="100%" height="230px" src="https://www.youtube.com/embed/Lz7b27W666g" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-lg-4">
+                <iframe width="100%" height="230px" src="https://www.youtube.com/embed/TNhpDJfyVRs" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row border-bottom">
+            <h3 class="title-video">Mon troisième titre qu'est le meilleur</h3>
+            <p></p>
+            <div class="col-lg-4">
+                <iframe width="100%" height="230px" src="https://www.youtube.com/embed/vbvyNnw8Qjg" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-lg-4">
+                <iframe width="100%" height="230px" src="https://www.youtube.com/embed/KEOFsQm6Je0" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-lg-4">
+                <iframe width="100%" height="230px" src="https://www.youtube.com/embed/UJ-tYBOvwmM" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row border-bottom">
+            <h3 class="title-video">Finally</h3>
+            <p></p>
+            <div class="col-lg-4">
+                <iframe width="100%" height="230px" src="https://www.youtube.com/embed/kfIl70TPX28" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-lg-4">
+                <iframe width="100%" height="230px" src="https://www.youtube.com/embed/KEOFsQm6Je0" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-lg-4">
+                <iframe width="100%" height="230px" src="https://www.youtube.com/embed/rKHYv2r4m6k" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="row">
+        <h2>Ajouter des vidéos Youtube</h2>
+        <hr />
+        <div class="video-play col-3">
+            
+        </div><br>
+        </div>
+        <hr />
+        <div class="input">
+          <textarea name="Enter url" placeholder="Entrer ici votre iframe YouTube pour ajouter votre vidéo à la page" id="iframeCode"></textarea>
+          <div class="play">
+            <button id="b1" type="button" class="btn btn-warning" onclick="save()">Enregistrer</button>
+          </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+            <div class="col-md-4 d-flex align-items-center">
+                <img src="images/YouTube_Logo_2017.svg.png" height="20" />
+                <span class="mb-3 mb-md-0 text-muted">&nbsp; &copy; 2022 SebDVS Web</span>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
